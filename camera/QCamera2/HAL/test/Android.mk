@@ -15,7 +15,7 @@ LOCAL_SHARED_LIBRARIES:= \
     libui \
     libgui \
     libcamera_client \
-    libskia \
+    libhwui \
     libstagefright \
     libstagefright_foundation \
 
@@ -34,8 +34,6 @@ LOCAL_C_INCLUDES += \
     frameworks/base/include/surfaceflinger \
     frameworks/base/include/camera \
     frameworks/base/include/media \
-    external/skia/include/core \
-    external/skia/include/images \
     $(TARGET_OUT_HEADERS)/qcom/display \
     $(LOCAL_PATH)/../stack/common \
     $(LOCAL_PATH)/../stack/mm-camera-interface/inc \
